@@ -21,5 +21,18 @@ return [
         'model'      => ['User', 'UserType'],
         'view'       => ['index/index'],
     ],
+//    'common'=>[
+//        '__dir__' => ['model'],
+//        'model' => ['Category','Admin'],
+//    ],
+//    'admin' => [
+//        '__dir__' => ['controller','view'],
+//        'controller' => ['Index'],
+//        'view' => ['index/index'],
+//    ],
+//    'api' => [
+//        '__dir__' => ['controller','view'],
+//        'controller' =>['Index','Image'],
+//    ],
     // 其他更多的模块定义
 ];
